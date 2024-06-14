@@ -1,4 +1,4 @@
-import { Sidebar } from "../components";
+import { Sidebar } from "../../components";
 
 export default function DashBoardLayout({
   children,
@@ -10,7 +10,7 @@ export default function DashBoardLayout({
       <div className="flex">
         <Sidebar />
 
-        <div className="p-2 w-full text-slate-900">{children}</div>
+        <div className="w-full text-slate-900">{children}</div>
       </div>
     </div>
   );

@@ -1,5 +1,4 @@
-import { CartCounter } from "@/app/components/shopping-cart/components";
-import { useState } from "react";
+import { CartCounter } from "@/shopping-cart";
 
 export const metadata = {
   title: "Shopping Cart",
